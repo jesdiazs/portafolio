@@ -1,48 +1,51 @@
 
 .navbar {
-	background-color: #613965;
+	border-radius: 0px;
+	background-color: #3D3267;
+	border-color:#3D3267;
     position: relative;
     min-height: 60px;
     margin-bottom: 0px;
 }
-
+/*CSS banner*/
 .banner{
-	background-image: url(../img/banner.jpg);
+	background-image: url(../img/banner-editada.jpg);
+	background-color:rgba(255 255 255 0.4);
 	background-size: cover;
 	background-repeat: no-repeat;
-	min-height: 520px;
-	opacity: 1.6;
+	width: 100%;
+	height: 500px
 }
-
 .banner h1{
 	font-family: 'Sriracha', cursive;
 	font-size: 91px;
-	color:#1C090A;
+	color:#460163;
 	margin-top: 231px;
 }
 .banner h4{
 	font-family: 'Josefin Sans', sans-serif;
 	font-size: 30px;
-	color:#1C090A;
+	color:#460163;
 	margin-top: 20px;
 }
+/*CSS SOBRE MI*/
 .aboutme{
-	background-color: #613965;
-	min-height: 200px;
+	background-color: #3D3267;
+	min-height: 250px;
 }
 .titleabout{
 	font-family: 'Josefin Sans', sans-serif;
 	font-size: 38px;
 	text-align: center;
 	margin-top: 42px;
-	color:#D8C3A4;
+	color:#E8D1E7;
 }
 .aboutme p{
 	font-family: 'Josefin Sans', sans-serif;
 	font-size: 21px;
 	text-align: justify;
 	margin-top:30px;
-	color:#D8C3A4;
+	color:#E8D1E7;
 }
 .responsive-img{
 	max-width: 47%;
@@ -52,23 +55,48 @@
     margin-bottom: 20px;
     border-radius: 80px;
 }
+/*CSS HABILIDADES*/
 .skill{
 	background-color: #E8D1E7;
 }
+.titleskill{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 40px;
+	text-align: center;
+	margin-top: 30px;
+	color:#613965;
+}
+.html, .css, .javas, .jq, .bootstrap{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 30px;
+	color: #460163;
+	display: inline-block;
+	margin: 10px 10px 40px;
+}
+.html:hover, .css:hover, .javas:hover, .jq:hover, .bootstrap:hover{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 50px;
+	color: #460163;
+	display: inline-block;
+	margin: 10px 10px 40px;
+}
+/*CSS PROYECTOS*/
 .proyecto{
-	background-color: #B292E0;
+	background-color: #3D3267;
 }
 .proyecto img{
 	width: 100%;
-	margin-top: 20px;
-	margin-bottom:25px;
+	margin-top: 40px;
+	margin-bottom:40px;
 }
 .titlepro{
 	font-family: 'Josefin Sans', sans-serif;
 	font-size: 38px;
 	text-align: center;
-	color: #613965;
+	color: #E8D1E7;
+	margin-top: 40px;
 }
+/*CSS contacto*/
 .contacto{
 	background-color: #E8D1E7;
 }
@@ -76,19 +104,60 @@
 	font-family: 'Josefin Sans', sans-serif;
 	font-size: 38px;
 	text-align: center;
-	margin-top: 20px;
+	margin-top: 30px;
+	margin-bottom: 30px;
 	color:#613965;
 }
-.fa-linkedin{
-	content: "\f082";
-}
-footer{
-	background-color: #613965;
-}
-footer p{
+.contacto h4{
 	font-family: 'Josefin Sans', sans-serif;
-	font-size: 21px;
-	text-align: center;
-	margin-top:20px;
-	color:#D8C3A4;
+	font-size: 25px;
+	color:#613965;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-left: 50px;
+}
+/*Iconos*/
+.fa-linkedin{
+	color:#5E2772;
+	margin-top: 20px;
+	margin-bottom:20px;
+	padding-left: 50px;
+}
+.fa-linkedin:hover{
+	color:#8C48AA;
+	margin-top: 20px;
+	margin-bottom:20px;
+	padding-left: 50px;
+}
+.fa-twitter{
+	color:#5E2772;
+	margin-top: 20px;
+	margin-bottom:20px;
+	padding-left: 50px;
+}
+.fa-twitter:hover{
+	color:#8C48AA;
+	margin-top: 20px;
+	margin-bottom:20px;
+	padding-left: 50px;
+}
+
+.fa-github{
+	color:#5E2772;
+	margin-top: 20px;
+	margin-bottom:20px;
+	padding-left: 50px;
+}
+.fa-github:hover{
+	color:#8C48AA;
+	margin-top: 20px;
+	margin-bottom:20px;
+	padding-left: 50px;
+}
+/*CSS FOOTER*/
+footer{
+	color: #3D3267;
+}
+.text-footer{
+	text-align:center;
 }
