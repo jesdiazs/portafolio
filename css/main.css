@@ -1,0 +1,94 @@
+
+.navbar {
+	background-color: #613965;
+    position: relative;
+    min-height: 60px;
+    margin-bottom: 0px;
+}
+
+.banner{
+	background-image: url(../img/banner.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 520px;
+	opacity: 1.6;
+}
+
+.banner h1{
+	font-family: 'Sriracha', cursive;
+	font-size: 91px;
+	color:#1C090A;
+	margin-top: 231px;
+}
+.banner h4{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 30px;
+	color:#1C090A;
+	margin-top: 20px;
+}
+.aboutme{
+	background-color: #613965;
+	min-height: 200px;
+}
+.titleabout{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 38px;
+	text-align: center;
+	margin-top: 42px;
+	color:#D8C3A4;
+}
+.aboutme p{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 21px;
+	text-align: justify;
+	margin-top:30px;
+	color:#D8C3A4;
+}
+.responsive-img{
+	max-width: 47%;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 150px;
+    margin-bottom: 20px;
+    border-radius: 80px;
+}
+.skill{
+	background-color: #E8D1E7;
+}
+.proyecto{
+	background-color: #B292E0;
+}
+.proyecto img{
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom:25px;
+}
+.titlepro{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 38px;
+	text-align: center;
+	color: #613965;
+}
+.contacto{
+	background-color: #E8D1E7;
+}
+.titlecontac{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 38px;
+	text-align: center;
+	margin-top: 20px;
+	color:#613965;
+}
+.fa-linkedin{
+	content: "\f082";
+}
+footer{
+	background-color: #613965;
+}
+footer p{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 21px;
+	text-align: center;
+	margin-top:20px;
+	color:#D8C3A4;
+}
